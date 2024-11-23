@@ -1,5 +1,13 @@
-# Project Topic: 
-Breast Cancer Analysis Using ANN
+# Project Topic:  Breast Cancer Analysis Using ANN
+
+## Description:
+Breast cancer is the most common cancer among women globally, accounting for 25% of all cancer cases, affecting over 2.1 million people in 2015 alone. It begins when cells in the breast start to grow uncontrollably, often forming tumors that can be seen via X-ray or felt as lumps. The challenge in diagnosing breast cancer lies in classifying tumors into malignant (cancerous) or benign (non-cancerous). This project focuses on using machine learning techniques, particularly Support Vector Machines (SVMs), to analyze and classify tumors based on the Breast Cancer Wisconsin (Diagnostic) Dataset.
+
+## Dataset Information:
+The dataset features measurements from a digitized image of a fine needle aspirate (FNA) of a breast mass. The characteristics of the cell nuclei present in the image are described in the paper by **K. P. Bennett and O. L. Mangasarian**, "Robust Linear Programming Discrimination of Two Linearly Inseparable Sets" (Optimization Methods and Software 1, 1992, 23-34).
+
+The dataset is available through the UW CS FTP server:
+
 It is also available on the UCI Machine Learning Repository: [UCI Breast Cancer Wisconsin (Diagnostic)](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29)
 
 Additionally, the dataset can be accessed via Kaggle: [Breast Cancer Wisconsin Data (Kaggle)](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data)
@@ -82,6 +90,33 @@ These calculations result in **30 features** (3 for each of the 10 original feat
 ### 7. **Deployment:**
    - The trained model (`mlp_model_imp.pkl`) and the scaler (`scaler.pkl`) were saved using `pickle`.
    - The model and scaler can be loaded into a **Streamlit app**, allowing users to input feature values and predict whether a tumor is benign or malignant.
+
+The project is organized into the following structure:
+
+### 1. **Dataset**:
+   - This directory contains the **Breast Cancer Wisconsin (Diagnostic)** dataset used for training and evaluation.
+   - [Dataset Link](https://github.com/BikashThapa/Breast_Cancer_Analysis_ANN/tree/master/Dataset)
+
+### 2. **Notebook**:
+   - This directory includes the Jupyter notebooks used for exploratory data analysis, model development, and evaluation.
+   - [Notebook Link](https://github.com/BikashThapa/Breast_Cancer_Analysis_ANN/tree/master/Notebook)
+
+### 3. **Pickle-Files**:
+   - This folder contains the saved model files (`mlp_model_imp.pkl`) and scaler file (`scaler.pkl`) used for inference.
+   - [Pickle-Files Link](https://github.com/BikashThapa/Breast_Cancer_Analysis_ANN/tree/master/Pickle-Files)
+
+### 4. **app.py**:
+   - This is the main file to run the Streamlit app. It loads the model and scaler, takes input from the user, and makes predictions for tumor classification.
+   - [app.py Link](https://github.com/BikashThapa/Breast_Cancer_Analysis_ANN/blob/master/app.py)
+
+### 5. **readme.md**:
+   - This file contains the documentation for the project, explaining the dataset, methodology, and results.
+   - [README Link](https://github.com/BikashThapa/Breast_Cancer_Analysis_ANN/blob/master/readme.md)
+
+### 6. **requirements.txt**:
+   - This file lists the Python packages required to run the project. It can be used with `pip` to install all dependencies.
+   - [requirements.txt Link](https://github.com/BikashThapa/Breast_Cancer_Analysis_ANN/blob/master/requirements.txt)
+
 
 ## Conclusion:
 This project demonstrates how machine learning can be effectively applied to the classification of breast cancer tumors. By preprocessing the data, selecting important features, and tuning the model, we were able to achieve high accuracy and build a robust system for detecting malignant tumors. The model is now ready for deployment and can be used in real-world applications to assist in breast cancer diagnosis.
