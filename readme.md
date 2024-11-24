@@ -6,11 +6,7 @@ Breast cancer is the most common cancer among women globally, accounting for 25%
 ## Dataset Information:
 The dataset features measurements from a digitized image of a fine needle aspirate (FNA) of a breast mass. The characteristics of the cell nuclei present in the image are described in the paper by **K. P. Bennett and O. L. Mangasarian**, "Robust Linear Programming Discrimination of Two Linearly Inseparable Sets" (Optimization Methods and Software 1, 1992, 23-34).
 
-The dataset is available through the UW CS FTP server:
-
-It is also available on the UCI Machine Learning Repository: [UCI Breast Cancer Wisconsin (Diagnostic)](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29)
-
-Additionally, the dataset can be accessed via Kaggle: [Breast Cancer Wisconsin Data (Kaggle)](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data)
+The dataset can be accessed via Kaggle: [Breast Cancer Wisconsin Data (Kaggle)](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data)
 
 ### Attribute Information:
 
